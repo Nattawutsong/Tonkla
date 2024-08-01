@@ -10,7 +10,6 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <center>
     <div className="font-sans p-4">
       <MyCards />
       {/* <h1 className="text-3xl">Welcome to Remix</h1>
@@ -54,6 +53,6 @@ export default function Index() {
       <li>Class : Information Technology</li>
       <li>E-mail : <a href="nattawut.song@rmutto.acth">Contact me.</a></li>
       </ul> */}
-    </div></center>
+    </div>
   );
 }
